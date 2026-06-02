@@ -27,7 +27,10 @@ body {
 
 .card-img-top{
     height: 250px;
-    object-fit: cover;
+    width: 100%;
+    object-fit: contain;
+    padding: 10px;
+    background: white;
 }
 
 

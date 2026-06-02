@@ -21,8 +21,15 @@ body {
 }
 
 .card {
+    height:100%;
     transition: 0.3s;
 }
+
+.card-img-top{
+    height: 250px;
+    object-fit: cover;
+}
+
 
 .card:hover {
     transform: translateY(-5px);
